@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.xianghui.activity"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="7" />
+    <instrumentation 
+		android:name="android.test.InstrumentationTestRunner"
+		android:targetPackage="org.xianghui.activity" 
+		android:label="unitTest"
+		/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PRIVILEGED"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.READ_SMS"/>
+    <uses-permission android:name="android.permission.RECEIVE_SMS"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <application
+        android:name="org.xianghui.application.MainApplication"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name=".AppMainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="MutetActivity"  android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="BlacklistActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="ImportantlistActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="ContactsMultiSelectActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="ScheduleAcitvity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="ScheduleAddOrUpdateActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="ScheduleShowActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".BluetoothActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name=".BluetoothActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="TeacherActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        <activity android:name="StudentActivity" android:configChanges="orientation|keyboardHidden"></activity>
+        
+        <service android:name="org.xianghui.service.PerDaySettingService"></service>
+        <service android:name="org.xianghui.service.IntelligentCenterService"></service>
+        <service android:name="org.xianghui.service.SettingScheduleService"></service>
+        <service android:name="org.xianghui.service.StudentBlueToothService"></service>
+        <service android:name="org.xianghui.service.TeacherBlueToothService"></service>
+        
+         <receiver android:name="org.xianghui.broadcastreciever.SmsBroadcastReciever" >
+            <intent-filter android:priority="9999">
+                <action android:name="android.provider.Telephony.SMS_RECEIVED"></action>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="org.xianghui.broadcastreciever.PhoneBroadcastReciever" >
+            <intent-filter android:priority="9999">
+                <action android:name="android.intent.action.PHONE_STATE"></action>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="org.xianghui.broadcastreciever.MuteBroadcastReciever" >
+            <intent-filter>
+                <action android:name="org.xianghui.broadcastreciever.MuteBroadcastReciever"/>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="org.xianghui.broadcastreciever.PerDaySettingBroadcastReciever" >
+            <intent-filter>
+                <action android:name="org.xianghui.broadcastreciever.PerDaySettingBroadcastReciever"/>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="org.xianghui.broadcastreciever.UnMuteBroadcastReciever" >
+            <intent-filter>
+                <action android:name="org.xianghui.broadcastreciever.UnMuteBroadcastReciever"/>
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:name="org.xianghui.broadcastreciever.ScheduleBroadcastReciever" >
+            <intent-filter>
+                <action android:name="org.xianghui.broadcastreciever.ScheduleBroadcastReciever"/>
+            </intent-filter>
+        </receiver>
+        
+        <uses-library android:name="android.test.runner"/>
+    </application>
+
+</manifest>

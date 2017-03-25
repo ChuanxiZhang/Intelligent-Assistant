@@ -1,0 +1,40 @@
+8
+
+dir
+124
+svn://127.0.0.1/IntelligentAssistant/src/android/telephony
+svn://127.0.0.1
+
+
+
+2012-05-15T06:59:52.162024Z
+62
+pzn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e7698118-a176-e64f-b4c1-3d89e433ea34
+
+NeighboringCellInfo.aidl
+file
+
+
+
+
+2012-05-28T02:47:13.289102Z
+75f7eef4e0bf63760efd556b9d317d78
+2012-05-15T06:59:52.162024Z
+62
+pzn
+

@@ -1,0 +1,52 @@
+8
+
+dir
+124
+svn://127.0.0.1/IntelligentAssistant/src/org/xianghui/adapter
+svn://127.0.0.1
+
+
+
+2012-05-15T15:35:16.313044Z
+70
+pzn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e7698118-a176-e64f-b4c1-3d89e433ea34
+
+ContactAdapter.java
+file
+125
+
+
+
+2012-05-28T02:48:30.219502Z
+47a911fa3650239ae24e66f267b6dd10
+2012-05-28T02:50:02.599786Z
+125
+pzn
+
+ScheduleAdapter.java
+file
+125
+
+
+
+2012-05-28T02:48:32.783648Z
+8d87539bf1fb71912addd6ee99ba9ff0
+2012-05-28T02:50:02.599786Z
+125
+pzn
+

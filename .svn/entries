@@ -1,0 +1,122 @@
+8
+
+dir
+124
+svn://127.0.0.1/IntelligentAssistant
+svn://127.0.0.1
+
+
+
+2012-05-28T02:46:28.313529Z
+124
+xp
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e7698118-a176-e64f-b4c1-3d89e433ea34
+
+.classpath
+file
+
+
+
+
+2012-05-28T02:47:15.118206Z
+f3efcd5b37165973b9130763a6eb2e98
+2012-05-14T10:02:18.418871Z
+46
+pzn
+
+proguard.cfg
+file
+
+
+
+
+2012-05-28T02:47:15.121206Z
+51676fad76900bdcd6f5b0f74523a923
+2012-05-18T09:52:10.429542Z
+104
+pzn
+
+project.properties
+file
+
+
+
+
+2012-05-28T02:47:15.124206Z
+aaf9caf22ecb3835a101d07860b6e2de
+2012-05-18T09:52:10.429542Z
+104
+pzn
+
+assets
+dir
+
+.project
+file
+
+
+
+
+2012-05-28T02:47:15.130207Z
+5c435434c610264a42d96b89fc0a8854
+2012-05-14T09:31:56.978147Z
+42
+pzn
+
+AndroidManifest.xml
+file
+
+
+
+
+2012-05-28T02:47:15.133207Z
+e4ede3ee3c9e0d8ca4b0895d49ace5fd
+2012-05-18T08:31:41.238407Z
+97
+pzn
+
+src
+dir
+
+bin
+dir
+
+gen
+dir
+
+libs
+dir
+
+res
+dir
+
+需求.txt
+file
+
+
+
+
+2012-05-28T02:47:15.137207Z
+028dd2732e79bb3a8ee679138c865fff
+2012-05-16T04:11:28.441650Z
+73
+pzn
+has-props
+
+.settings
+dir
+

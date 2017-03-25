@@ -1,0 +1,52 @@
+8
+
+dir
+124
+svn://127.0.0.1/IntelligentAssistant/res/values
+svn://127.0.0.1
+
+
+
+2012-05-14T10:02:18.418871Z
+46
+pzn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e7698118-a176-e64f-b4c1-3d89e433ea34
+
+styles.xml
+file
+
+
+
+
+2012-05-28T02:47:14.584176Z
+893ae852d73f1bc6352b0fd6a2f90050
+2012-05-14T10:02:18.418871Z
+46
+pzn
+
+strings.xml
+file
+
+
+
+
+2012-05-28T02:47:14.587176Z
+a1f9b41321af60f3dcbd0b88817360ee
+2012-05-14T09:31:56.978147Z
+42
+pzn
+

@@ -1,0 +1,40 @@
+8
+
+dir
+124
+svn://127.0.0.1/IntelligentAssistant/src/com/android/internal/telephony
+svn://127.0.0.1
+
+
+
+2012-05-15T06:59:52.162024Z
+62
+pzn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e7698118-a176-e64f-b4c1-3d89e433ea34
+
+ITelephony.aidl
+file
+
+
+
+
+2012-05-28T02:47:14.035144Z
+de531be80928d85c8b936159ddb085f0
+2012-05-15T06:59:52.162024Z
+62
+pzn
+

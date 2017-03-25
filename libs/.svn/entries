@@ -1,0 +1,41 @@
+8
+
+dir
+124
+svn://127.0.0.1/IntelligentAssistant/libs
+svn://127.0.0.1
+
+
+
+2012-05-16T04:06:38.594801Z
+72
+pzn
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+e7698118-a176-e64f-b4c1-3d89e433ea34
+
+androidcommon.jar
+file
+
+
+
+
+2012-05-28T02:47:14.519172Z
+47c7a12fb4e355d8d8fbc711f6c56daa
+2012-05-16T04:06:38.594801Z
+72
+pzn
+has-props
+
